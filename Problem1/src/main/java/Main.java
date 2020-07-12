@@ -3,7 +3,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        String pathname = "/Users/pongsathorn.p/Desktop/OOC HW1/docs";
+        String pathname = "/Users/pongsathorn.p/Desktop/OOC-HW/docs";
         File file = new File(pathname);
         CountingDirectory countingDirectory = new CountingDirectory();
         countingDirectory.ListOfFile(file);
